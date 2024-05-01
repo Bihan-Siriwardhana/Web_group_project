@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standard Room</title>
+    <link rel="stylesheet" href="rstyles.css">
+    <link rel="icon" type="image/x-icon" href="r.png">
+
+    <script src="booking_script.js" defer></script>
+</head>
+<body>
+
+<div class="room-description">
+    <h2>Standard Room</h2>
+    <img src="stroom.png" alt="Standard Room" class="room-photo">
+    <p>Welcome to our cozy Standard Room, where comfort meets affordability. Ideal for solo travelers or couples, our Standard Room offers everything you need for a relaxing stay without breaking the bank.</p>
+    
+    <h3>Features:</h3>
+    <ul>
+        <li>Comfortable queen-size bed</li>
+        <li>Private bathroom with shower</li>
+        <li>High-speed Wi-Fi access</li>
+        <li>Flat-screen TV with cable channels</li>
+        <li>Work desk and chair</li>
+        <li>In-room coffee maker</li>
+        <li>Individually controlled air conditioning</li>
+        <li>Complimentary toiletries</li>
+        <li>Daily housekeeping service</li>
+    </ul>
+    
+    <p>Unwind after a day of exploration in our inviting Standard Room, designed with your comfort in mind. Whether you're here for business or leisure, our Standard Room provides a peaceful retreat to recharge and rejuvenate.</p>
+    
+    <div class="booking-form">
+        <h3>Book Now</h3>
+        <form id="bookingForm">
+            <label for="check-in">Check-in Date:</label>
+            <input type="date" id="check-in" name="check-in">
+            
+            <label for="check-out">Check-out Date:</label>
+            <input type="date" id="check-out" name="check-out">
+            
+            <label for="adults">Number of Adults:</label>
+            <select id="adults" name="adults">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            
+            <label for="price">Price:</label>
+            <input type="text" id="price" name="price" value="$" readonly>
+            
+            <input type="submit" value="Book Now" class="book-now-btn">
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

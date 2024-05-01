@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deluxe Room</title>
+    <link rel="stylesheet" href="rstyles.css">
+    <link rel="icon" type="image/x-icon" href="r.png">
+    <script src="booking_script.js" defer></script>
+</head>
+<body>
+
+<div class="room-description">
+    <h2>Presidential Suites</h2>
+    <img src="prroom.png" alt="Presidential Suites" class="room-photo">
+    <p>Indulge in unparalleled luxury with our Presidential Suites. These opulent retreats offer expansive living space, lavish amenities, and breathtaking views, ensuring an unforgettable stay for discerning guests.</p>
+    
+    <h3>Features:</h3>
+    <ul>
+        <li>Sumptuous king-size bed with plush bedding</li>
+        <li>Grand living area with elegant furnishings and panoramic windows</li>
+        <li>Private dining room for intimate gatherings and gourmet meals</li>
+        <li>Luxurious marble bathroom with oversized soaking tub and separate shower</li>
+        <li>State-of-the-art entertainment system with home theater and surround sound</li>
+        <li>Fully equipped kitchenette for added convenience</li>
+        <li>Personalized butler service for a truly VIP experience</li>
+        <li>Exclusive access to our executive lounge and private concierge services</li>
+        <li>Private balcony or terrace with stunning views of the city skyline or natural landscapes</li>
+        <li>Complimentary access to our premium spa and fitness facilities</li>
+    </ul>
+        
+    
+    <p>Experience the epitome of luxury and sophistication in our Presidential Suites. Whether you're celebrating a special occasion or simply seeking an indulgent escape, our Presidential Suites offer the ultimate retreat for discerning travelers.</p>
+    
+    <div class="booking-form">
+        <h3>Book Now</h3>
+        <form id="bookingForm">
+            <label for="check-in">Check-in Date:</label>
+            <input type="date" id="check-in" name="check-in">
+            
+            <label for="check-out">Check-out Date:</label>
+            <input type="date" id="check-out" name="check-out">
+            
+            <label for="adults">Number of Adults:</label>
+            <select id="adults" name="adults">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            
+            <label for="price">Price:</label>
+            <input type="text" id="price" name="price" value="$" readonly>
+            
+            <input type="submit" value="Book Now" class="book-now-btn">
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

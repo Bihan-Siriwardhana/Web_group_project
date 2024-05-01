@@ -1,0 +1,187 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: sticky;
+}
+
+.box {
+  display: flex;
+  justify-content: center; /* Center the elements inside the box */
+  position: sticky;
+}
+
+.box li {
+  list-style: none;
+  display: inline;
+}
+#tag {
+  font-family: "Sofia", sans-serif;
+  font-size: 40px;
+  margin-left: 30px;
+  margin-top: 20px;
+  text-shadow: 3px 3px 3px #ababab;
+  z-index: 1;
+  display: flex;
+}
+
+nav {
+  /* Remove the margin */
+  margin: 0 auto;
+}
+
+.box a {
+  float: left; /* Float the links to the left */
+  display: block; /* Display links as blocks */
+  color: rgb(11, 11, 11); /* text color */
+  text-align: center; /* Center-align the text */
+  padding: 14px 50px; /* Padding around the links */
+  text-decoration: none; /* Remove underline from links */
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+/* hotel photo*/
+.photo img  {
+  display: block;
+  margin: 0 auto; 
+  max-width: 100%; 
+  height: auto; 
+}
+
+/*acoomodation*/
+h1 {
+  text-align: center;
+  font-size: 32px;
+  color: #333; 
+  margin-bottom: 20px;
+}
+
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #666; 
+  margin-bottom: 20px;
+}
+
+
+.section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/*room*/
+
+.container1{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.room {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.room img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.room h2 {
+  margin: 0;
+}
+
+.room p {
+  margin-bottom: 10px;
+}
+
+.room button {
+  display: block;
+  margin: 0 auto; 
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.room button:hover {
+  background-color: #45a049;
+}
+
+
+
+.description {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.book-now {
+  font-size: 16px;
+  font-style: italic;
+}
+
+/*location*/
+.hotel-details {
+  display: flex;
+  background-color: #f0f0f0; 
+}
+
+.hotel-info {
+  width: 50%; 
+  padding: 1rem;
+  color: #333; 
+}
+
+.hotel-info h2 {
+  margin-bottom: 1rem;
+}
+
+.hotel-info p {
+  margin-bottom: 1rem;
+}
+
+.hotel-info ul.contact {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hotel-info ul.contact li {
+  margin-bottom: 0.5rem;
+}
+/*map*/
+.hotel-map {
+  width: 50%; 
+  padding: 1rem;
+}
+
+.hotel-map h3 {
+  margin-bottom: 1rem;
+}
+
+
+.hotel-map iframe {
+  width: 100%;
+  height: 200px;
+}
